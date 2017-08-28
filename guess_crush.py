@@ -8,7 +8,7 @@ nameTwo = input('And, what is your name? : ')
 
 name_confession = getpass.getpass(prompt='Who do you like?')
 
-guess = input('Who do you think he/she likes? \n Your guess : ')
+guess = input('Who do you think {} likes? \n Your guess : '.format(nameTwo))
 
 if guess.lower() == name_confession.lower():
     confession = True
