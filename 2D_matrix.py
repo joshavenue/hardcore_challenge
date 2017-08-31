@@ -50,7 +50,8 @@ try:
         except ValueError:
             print('Invalid shape dimension.')
             raise SystemExit
-
+    else:
+        print('None other than 2D.')
 except ValueError:
     print('Invalid dimension.')
     raise SystemExit
